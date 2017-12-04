@@ -11,13 +11,14 @@
 }
 
 /* Hide "Send Tab to Device" and preceding separator*/
-#context_sendTabToDevice, #context_sendTabToDevice_separator {
+#context_sendTabToDevice #context_sendTabToDevice_separator {
   display: none !important;
 }
 
 /* Hige "Send, Copy, Set Image as background */
-#context-sendimage, #context-setDesktopBackground
-#context-copyimage {
+#contentAreaContextMenu #context-sendimage,
+#contentAreaContextMenu #context-copyimage,
+#context-setDesktopBackground {
   display: none !important;
 }
 /* Hide "Bookmark this Link" */
