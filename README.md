@@ -3,6 +3,12 @@ Firefox CSS customization
 
 Firefox CSS code to remove some of the bloat that comes with the vanilla version.
 
+## Prequisite:
+Unlock custom CSS usage
+
+`about:config` > `toolkit.legacyUserProfileCustomizations.stylesheets` > `true`  
+
+
 ### How to use:
 Copy the userChrome.css file or contents into your Firefox profile's **chrome** folder. Create the folder if it does not exist.
 Find the profile by going to about:support then clicking **Open Directory**
@@ -17,7 +23,7 @@ Find the profile by going to about:support then clicking **Open Directory**
 * Bookmark Link
 
 ### Other stuff to remove
-Some stuff can be removed my disabling extensions. open about:config and disable as desired:
+Some stuff can be removed by disabling extensions. open about:config and disable as desired:
 * extensions.pocket.enable;false
 * extensions.screenshots.disabled;true
 
