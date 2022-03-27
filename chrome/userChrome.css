@@ -25,3 +25,9 @@
 #contentAreaContextMenu #context-bookmarklink {
   display: none !important;
 }
+
+/* Hide "Delete" option from the Downloads context menu */
+.downloadDeleteFileMenuItem {
+display: none !important;
+
+}
